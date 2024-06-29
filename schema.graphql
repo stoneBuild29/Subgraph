@@ -1,4 +1,4 @@
-type PairCreated @entity(immutable: true) {
+type PairCreated @entity {
   id: Bytes!
   token0: Bytes! # address
   token1: Bytes! # address
@@ -8,3 +8,4 @@ type PairCreated @entity(immutable: true) {
   blockTimestamp: BigInt!
   transactionHash: Bytes!
 }
+
